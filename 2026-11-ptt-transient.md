@@ -1,6 +1,6 @@
 # PTT transient coupling into the ring
 
-**M9OMS MyTiMic** · Oscilloscope measurements, November 2026 · [Back to README](..README.md)
+**M9OMS MyTiMic** · Oscilloscope measurements, November 2026 · [Back to README](README.md)
 
 ## Possible cause of false “G” detection
 
