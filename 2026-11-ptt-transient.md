@@ -94,4 +94,4 @@ The control PCB already includes stitched ground planes. Further tests will esta
 
 ---
 
-Text and images licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), credit M9OMS.
+
