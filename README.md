@@ -31,8 +31,8 @@ The MyTiMic adds a filter on the PTT line and a capacitor on the ring, both at t
 
 | Test | Board without filter | MyTiMic | Report |
 | --- | --- | --- | --- |
-| Ring transient on PTT press, Mic Test mode, no RF (electret absent) | ≈ −500 mV spike on 10 of 10 presses | No capture at −24 mV trigger (10 presses) | [2026-11 PTT transient](tests/2026-11-ptt-transient.md) |
-| Ring transient on PTT press, transmitting into dummy load | ≈ −500 mV spike on 10 of 10 presses | Small RF-related capture at −24 mV; none at −50 mV | [2026-11 PTT transient](tests/2026-11-ptt-transient.md) |
+| Ring transient on PTT press, Mic Test mode, no RF (electret absent) | ≈ −500 mV spike on 10 of 10 presses | No capture at −24 mV trigger (10 presses) | [2026-11 PTT transient](2026-11-ptt-transient.md) |
+| Ring transient on PTT press, transmitting into dummy load | ≈ −500 mV spike on 10 of 10 presses | Small RF-related capture at −24 mV; none at −50 mV | [2026-11 PTT transient](2026-11-ptt-transient.md) |
 
 Measured on the QMX PCB, ring to sleeve. Full setup, conditions and captures are in the linked report.
 
@@ -46,5 +46,5 @@ Values were chosen using the published QMX schematic from QRP Labs. Results shou
 
 | Date | Report |
 | --- | --- |
-| November 2026 | [PTT transient coupling into the ring](tests/2026-11-ptt-transient.md) |
+| November 2026 | [PTT transient coupling into the ring](2026-11-ptt-transient.md) |
 
