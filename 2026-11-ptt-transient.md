@@ -35,7 +35,7 @@ This allowed measurements to be taken with and without RF, allowing the RF compo
 
 The electret was absent from both PCBs. This excluded audio as a source of disturbance on the Ring, allowing the PTT circuit to be assessed in isolation.
 
-The Ring-to-Sleeve signal was measured on the QMX PCB using an oscilloscope probe with a short ground spring. Channel 1 was set to 10×, AC coupling, 20 MHz bandwidth. The single-capture trigger was DC-coupled, set to a falling edge at −50 mV, unless otherwise stated.
+The Ring-to-Sleeve signal was measured on the QMX PCB using an oscilloscope probe with a short ground spring. Channel 1 was set to 10×, AC coupling. The single-capture trigger was DC-coupled, set to a falling edge at −50 mV, unless otherwise stated.
 
 The QMX was being powered by a bench supply, set to 12.00 V.
 
