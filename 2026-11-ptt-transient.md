@@ -1,4 +1,4 @@
-# PTT transient coupling into the ring
+# Investigating PTT transients
 
 **M9OMS MyTiMic** · Oscilloscope measurements, November 2026 · [Back to README](README.md)
 
