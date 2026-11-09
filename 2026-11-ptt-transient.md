@@ -90,7 +90,7 @@ The additional components reduced coupled spikes on the Ring below the −24 mV 
 
 The performance of different TRS cables can be established using the same tests.
 
-The control PCB already includes stitched ground planes. Further tests will establish their benefit, particularly with Ring coupling and RF immunity.
+The control PCB already includes stitched ground planes which isn't typically seen on hobbyists board. Further tests will establish their benefit compared to typical boards, particularly with Ring coupling and RF immunity.
 
 ---
 
