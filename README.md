@@ -27,12 +27,12 @@ According to the QMX manual, the radio detects a GPS by monitoring the ring cont
 
 The MyTiMic adds a filter on the PTT line and a capacitor on the ring, both at the jack, to slow those transitions and suppress what couples across. The parts are on the microphone board, so paddle operation is unaffected.
 
-## Results so far
+## Measurements so far
 
-| Test | Board without filter | MyTiMic | Report |
-| --- | --- | --- | --- |
-| Ring transient on PTT press, Mic Test mode, no RF (electret absent) | ≈ −500 mV spike on 10 of 10 presses | No capture at −24 mV trigger (10 presses) | [2026-11 PTT transient](2026-11-ptt-transient.md) |
-| Ring transient on PTT press, transmitting into dummy load | ≈ −500 mV spike on 10 of 10 presses | Small RF-related capture at −24 mV; none at −50 mV | [2026-11 PTT transient](2026-11-ptt-transient.md) |
+| Comparison | Board without filter | MyTiMic |
+| --- | --- | --- |
+| Ring transient on PTT press, Mic Test mode, no RF (electret absent) | ≈ −500 mV spike on 10 of 10 presses | No capture at −24 mV trigger (10 presses) |
+| Ring transient on PTT press, transmitting into dummy load | ≈ −500 mV spike on 10 of 10 presses | Small RF-related capture at −24 mV; none at −50 mV |
 
 Measured on the QMX PCB, ring to sleeve. Full setup, conditions and captures are in the linked report.
 
@@ -42,9 +42,9 @@ The filter reduced coupled spikes on the ring below the −24 mV trigger thresho
 
 Values were chosen using the published QMX schematic from QRP Labs. Results should not be assumed to apply to other radios that use the same TRS pinout; their input circuits may differ.
 
-## Test reports
+## Oscilloscope measurements
 
-| Date | Report |
+| Date | Link |
 | --- | --- |
 | November 2026 | [PTT transient coupling into the ring](2026-11-ptt-transient.md) |
 
