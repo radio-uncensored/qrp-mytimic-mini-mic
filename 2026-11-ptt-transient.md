@@ -48,13 +48,13 @@ These tests were conducted in the diagnostics menu, with “mic test” enabled.
 The control PCB exhibited a negative voltage spike of approximately -500 mV. This was repeated on all 10 PTT button presses. Occasionally, a negative voltage spike was exhibited upon button release. Very occasionally, more than one contact bounce was exhibited on PTT button press.
 
 ![Control PCB, no RF (Mic Test)](captures/control_mictest_press.png)
-*Control PCB, no RF (Mic Test).*
+*Control PCB, no RF (Mic Test in Diagnostics Menu).*
 
-![Control PCB, occasional double bounce](captures/control_double_bounce.png)
-*Control PCB. Very occasional double bounce.*
+![Control PCB, occasional multiple contact bounce](captures/control_double_bounce.png)
+*Control PCB. Very occasional multiple contact contact bounce.*
 
 ![Control PCB, PTT release](captures/control_release.png)
-*Control PCB. Occasional PTT release spike: lower amplitude, but still substantial.*
+*Control PCB. Occasional PTT release spike:*
 
 The MyTiMic PCB was unable to trigger a single capture at -50 mV on any of 10 PTT button presses. The trigger was adjusted to -24 mV, with no successful acquisition.
 
@@ -72,15 +72,15 @@ The QMX was disconnected from the computer to conduct these tests. The operating
 The control PCB exhibited the same negative voltage spike. This was repeated on all 10 PTT button presses. The same occasional spike was visible upon button release.
 
 ![Control PCB, transmitting](captures/control_tx_press.png)
-*Control PCB, transmitting. Typical coupling, very similar to no RF.*
+*Control PCB, transmitting. Typical coupling, very similar to the no RF capture.*
 
 ![Control PCB, transmitting, with measurements](captures/control_tx_press_measured.png)
-*Control PCB, transmitting. Another typical trace, with measurements on the right.*
+*Control PCB, transmitting. Another typical trace, with measurements taken via cursors.*
 
 The MyTiMic PCB was unable to trigger a single capture at -50 mV. With the trigger adjusted to -24 mV, a successful acquisition was captured. This indicates that a small RF-related component temporarily couples onto the ring when transmitting.
 
 ![MyTiMic PCB, transmitting](captures/mytimic_tx_24mV.png)
-*MyTiMic PCB, normal TX, trigger −24 mV. Very similar to the result forced from the diagnostics menu.*
+*MyTiMic PCB, normal TX, trigger −24 mV. Very similar to the result forced by pressing "T" in the hardware tests menu.*
 
 ## Summary
 
