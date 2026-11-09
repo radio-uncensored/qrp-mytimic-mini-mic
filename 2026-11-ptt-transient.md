@@ -51,7 +51,7 @@ The control PCB exhibited a negative voltage spike of approximately -500 mV. Thi
 *Control PCB, no RF (Mic Test in Diagnostics Menu).*
 
 ![Control PCB, occasional multiple contact bounce](captures/control_double_bounce.png)
-*Control PCB. Very occasional multiple contact contact bounce.*
+*Control PCB. Very occasional multiple contact bounce.*
 
 ![Control PCB, PTT release](captures/control_release.png)
 *Control PCB. Occasional PTT release spike:*
