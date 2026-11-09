@@ -75,7 +75,7 @@ The control PCB exhibited the same negative voltage spike. This was repeated on 
 *Control PCB, transmitting. Typical coupling, very similar to the no RF capture.*
 
 ![Control PCB, transmitting, with measurements](captures/control_tx_press_measured.png)
-*Control PCB, transmitting. Another typical trace, with measurements taken via cursors.*
+*Control PCB, transmitting. Typical trace, with measurements taken via cursors.*
 
 The MyTiMic PCB was unable to trigger a single capture at -50 mV. With the trigger adjusted to -24 mV, a successful acquisition was captured. This indicates that a small RF-related component temporarily couples onto the ring when transmitting.
 
