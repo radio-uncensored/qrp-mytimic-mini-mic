@@ -6,7 +6,7 @@
 
 According to the manual, the QMX detects a GPS by monitoring the ring contact for 9600-baud serial data. The ring contact is also used for the microphone signal.
 
-Working hypothesis: when the PTT is pressed or released, its contacts may bounce briefly, creating a series of fast transitions on the tip contact. Some of this transient energy could couple into the ring through the plug, cable, or circuit board and be interpreted by the QMX as serial data.
+Working hypothesis: when the PTT is pressed or released, its contacts may bounce briefly, creating a series of fast transitions on the tip contact. Some of this transient energy could couple into the ring through the jack, cable, or circuit board and be interpreted by the QMX as serial data.
 
 The QMX’s internal 1 nF capacitance on the paddle lines may not provide sufficient debounce. Assuming an internal pull-up of approximately 40 kΩ, the corresponding time constant is about 40 µs, compared with typical contact-bounce durations of 1–10 ms.
 
