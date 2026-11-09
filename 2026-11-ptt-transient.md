@@ -1,6 +1,6 @@
 # PTT transient coupling into the ring
 
-**M9OMS MyTiMic** · Test report, November 2026 · [Back to README](../README.md)
+**M9OMS MyTiMic** · Test report, November 2026 · [Back to README](..README.md)
 
 ## Possible cause of false “G” detection
 
@@ -54,7 +54,7 @@ The control PCB exhibited a negative voltage spike of approximately -500 mV. Thi
 *Control PCB. Very occasional multiple contact bounce.*
 
 ![Control PCB, PTT release](captures/control_release.png)
-*Control PCB. Occasional PTT release spike:*
+*Control PCB. Occasional PTT release spike, typically a lower amplitude.*
 
 The MyTiMic PCB was unable to trigger a single capture at -50 mV on any of 10 PTT button presses. The trigger was adjusted to -24 mV, with no successful acquisition.
 
@@ -90,7 +90,7 @@ The additional components reduced coupled spikes on the Ring below the −24 mV 
 
 The performance of different TRS cables can be established using the same tests.
 
-The control PCB already includes stitched ground planes which isn't typically seen on hobbyist boards. Further tests will establish their benefit compared to boards that use simple traces, particularly with Ring coupling and RF immunity.
+The control PCB already includes stitched ground planes which aren't typically seen on hobbyist boards. Further tests will establish their benefit compared to boards that use simple traces, particularly with Ring coupling and RF immunity.
 
 ---
 
