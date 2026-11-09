@@ -45,7 +45,7 @@ The same TRS cable was used in all tests - only the microphone PCBs were changed
 
 These tests were conducted in the diagnostics menu, with “mic test” enabled. No RF was emitted from the QMX.
 
-The control PCB exhibited a negative voltage spike of approximately -500 mV. This was repeated on all 10 PTT button presses. Occasionally, a negative voltage spike was exhibited upon button release. Very occasionally, more than one contact bounce was exhibited on PTT button press.
+The control PCB exhibited a voltage spike of approximately -500 mV. This was repeated on all 10 PTT button presses. Occasionally, a spike was exhibited upon button release. Very occasionally, more than one contact bounce was exhibited on PTT button press.
 
 ![Control PCB, no RF (Mic Test)](captures/control_mictest_press.png)
 *Control PCB, no RF (Mic Test in Diagnostics Menu).*
@@ -69,7 +69,7 @@ Both PCBs failed to acquire a single capture with the trigger set to -50 mV. The
 
 The QMX was disconnected from the computer to conduct these tests. The operating frequency was set to 14.150 for consistency in all tests. PTT button presses during this test would activate the PA.
 
-The control PCB exhibited the same negative voltage spike. This was repeated on all 10 PTT button presses. The same occasional spike was visible upon button release.
+The control PCB exhibited the same voltage spike. This was repeated on all 10 PTT button presses. The same occasional spike was visible on PTT release.
 
 ![Control PCB, transmitting](captures/control_tx_press.png)
 *Control PCB, transmitting. Typical coupling, very similar to the no RF capture.*
@@ -77,7 +77,7 @@ The control PCB exhibited the same negative voltage spike. This was repeated on 
 ![Control PCB, transmitting, with measurements](captures/control_tx_press_measured.png)
 *Control PCB, transmitting. Typical trace, with measurements taken via cursors.*
 
-The MyTiMic PCB was unable to trigger a single capture at -50 mV. With the trigger adjusted to -24 mV, a successful acquisition was captured. This indicates that a small RF-related component temporarily couples onto the ring when transmitting.
+The MyTiMic PCB was unable to trigger a single capture at -50 mV. With the trigger adjusted to -24 mV, a successful acquisition was captured. This indicates that a small RF-related component temporarily couples onto the Ring when transmitting.
 
 ![MyTiMic PCB, transmitting](captures/mytimic_tx_24mV.png)
 *MyTiMic PCB, normal TX, trigger −24 mV. Very similar to the result forced by pressing "T" in the hardware tests menu.*
@@ -88,9 +88,9 @@ The additional components reduced coupled spikes on the Ring below the −24 mV 
 
 ## Further tests
 
-The performance of different TRS cables can be established using the same tests.
+The performance of different TRS cables can be established using the same test method.
 
-The control PCB already includes stitched ground planes which aren't typically seen on hobbyist boards. Further tests will establish their benefit compared to boards that use simple traces, particularly with Ring coupling and RF immunity.
+The control PCB includes stitched ground planes which aren't typically seen on hobbyist boards. Further tests can establish their benefit compared to boards that use simple traces, particularly regarding Ring coupling and RF immunity.
 
 ---
 
