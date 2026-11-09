@@ -46,5 +46,5 @@ Values were chosen using the published QMX schematic from QRP Labs. Results shou
 
 | Date | Link |
 | --- | --- |
-| November 2026 | [PTT transient coupling into the ring](2026-11-ptt-transient.md) |
+| November 2026 | [Investigating PTT transients](2026-11-ptt-transient.md) |
 
