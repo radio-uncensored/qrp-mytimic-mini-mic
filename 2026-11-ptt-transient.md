@@ -41,7 +41,7 @@ The QMX was being powered by a bench supply, set to 12.00 V.
 
 The same TRS cable was used in all tests - only the microphone PCBs were changed.
 
-## Test results 1
+## Test results 1: RF Isolated
 
 These tests were conducted in the diagnostics menu, with “mic test” enabled. No RF was emitted from the QMX.
 
@@ -65,7 +65,7 @@ Both PCBs failed to acquire a single capture with the trigger set to -50 mV. The
 ![MyTiMic PCB, RF introduced via diagnostics menu, no PTT press](captures/mytimic_diag_rf_24mV.png)
 *MyTiMic PCB, RF introduced via the diagnostics menu (no PTT press), trigger −24 mV.*
 
-## Test results 2
+## Test results 2: PTT into Dummy Load
 
 The QMX was disconnected from the computer to conduct these tests. The operating frequency was set to 14.150 for consistency in all tests. PTT button presses during this test would activate the PA.
 
