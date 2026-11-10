@@ -2,20 +2,18 @@
 
 A compact push-to-talk electret microphone for portable SSB operating with the QRP Labs QMX / QMX+.
 
-This repository holds **test results only**. It does not contain design files.
+This repository contains test results only.
 
 **Store listing:** [M9OMS MyTiMic V1](https://m9oms.com/product/mytimic_v_1-microphone/)
 
-Independent design; not affiliated with or endorsed by any radio manufacturer.
 
 ---
 
-## Design features
+## PTT features
 
 - PTT filter to suppress switching transients
 - RF bypassing at the jack, with a C0G capacitor
 - Stitched ground planes on both sides of the PCB
-- Repairable: screw-held shell; the PTT switch, capsule and jack can be replaced
 
 ## Why the PTT filter?
 
