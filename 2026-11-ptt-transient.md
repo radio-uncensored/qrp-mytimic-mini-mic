@@ -89,13 +89,13 @@ The MyTiMic PCB was unable to trigger a single capture at -50 mV. With the trigg
 
 ## Summary
 
-The additional components reduced coupled spikes on the Ring below the −24 mV trigger threshold, a reduction of at least 20× (26 dB). There may be a benefit to users who wish to keep the GPS protection enabled. Field testing can help to establish whether this eliminates the false “G” message. Additional value may also be observed by enabling the user to reduce the PTT delay in firmware - further tests can establish whether mic Thump/Pop is reduced.
+The additional components reduced coupled spikes on the Ring below the −24 mV trigger threshold, a reduction of at least 20× (26 dB). There may be a benefit to users who wish to keep the GPS protection enabled. Field testing can help to establish whether this eliminates the false “G” message.
 
-## Further tests
+## Future tests
 
-The performance of various TRS cables can be established using the same test method.
+The performance of various TRS cables will established using the same test method.
 
-The control PCB includes stitched ground planes - not typically implemented on marketplace mics. Further tests can establish whether they offer a benefit when compared to boards without them, particularly for Ring coupling and RF immunity.
+The control PCB includes stitched ground planes - not typically implemented on marketplace mics. The control PCB will be compared to marketplace boards to establish whether they differ in performance.
 
 ---
 
