@@ -9,7 +9,7 @@ This repository contains test results only.
 
 ---
 
-## PTT features
+## PCB features
 
 - PTT filter to suppress switching transients
 - RF bypassing at the jack, with a C0G capacitor
