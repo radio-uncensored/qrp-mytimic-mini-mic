@@ -31,7 +31,7 @@ To test this theory, two PCBs were ordered from JLCPCB. One containing C1, C2 an
 1. With “Mic Test” enabled in diagnostics.
 2. Transmitting into a dummy load, on 14.150 MHz.
 
-This allowed measurements to be taken with and without an active PA, allowing the RF component to be isolated.
+This allowed measurements to be taken with and without activating the PA, allowing any voltage drop or RF component to be isolated.
 
 The electret was absent from both PCBs. This excluded audio as a source of disturbance on the Ring, allowing the PTT circuit to be assessed in isolation.
 
@@ -41,9 +41,9 @@ The QMX was being powered by a bench supply, set to 12.00 V.
 
 The same TRS cable was used in all tests - only the microphone PCBs were swapped between tests.
 
-## Test results 1: RF Isolated
+## Test results 1: PA Isolated
 
-These tests were conducted in the diagnostics menu, with “mic test” enabled. No RF was emitted from the PA.
+These tests were conducted in the diagnostics menu, with “mic test” enabled.
 
 The control PCB exhibited a voltage excursion of approximately -500 mV. This was repeated on all 10 PTT button presses. Occasionally, an excursion was exhibited on PTT release. Very occasionally, more than one contact bounce was exhibited on PTT button press.
 
@@ -58,12 +58,12 @@ The control PCB exhibited a voltage excursion of approximately -500 mV. This was
 
 The MyTiMic PCB was unable to trigger a single capture at -50 mV on any of 10 PTT button presses. The trigger was adjusted to -24 mV, with no successful acquisition.
 
-Whilst in the diagnostics menu, RF was introduced without the PTT button being pressed. This was achieved using the “hardware tests” menu, by pressing “T” on the keyboard. The exact frequency is unknown, however the 20 m band was enabled in the menu.
+Whilst in the diagnostics menu, the PA was activated without the PTT button being pressed. This was achieved using the “hardware tests” menu, by pressing “T” on the keyboard. The exact frequency is unknown, however the 20 m band was enabled in the menu.
 
 Both PCBs failed to acquire a single capture with the trigger set to -50 mV. The trigger was lowered to -24 mV, which enabled both PCBs to successfully acquire a capture. Both traces were very similar.
 
-![MyTiMic PCB, RF introduced via diagnostics menu, no PTT press](captures/mytimic_diag_rf_24mV.png)
-*MyTiMic PCB, RF introduced via the diagnostics menu (no PTT press), trigger −24 mV.*
+![MyTiMic PCB, PA activated via hardware tests menu, no PTT press](captures/mytimic_diag_rf_24mV.png)
+*MyTiMic PCB, PA activated via the hardware tests menu (no PTT press), trigger −24 mV.*
 
 ## Test results 2: PTT into Dummy Load
 
@@ -77,10 +77,10 @@ The control PCB exhibited the same voltage excursion. This was repeated on all 1
 ![Control PCB, transmitting, with measurements](captures/control_tx_press_measured.png)
 *Control PCB, PA active. Typical trace, with measurements taken via cursors.*
 
-The MyTiMic PCB was unable to trigger a single capture at -50 mV. With the trigger adjusted to -24 mV, a successful acquisition was captured. This indicates that a small RF-related component temporarily couples onto the Ring when transmitting.
+The MyTiMic PCB was unable to trigger a single capture at -50 mV. With the trigger adjusted to -24 mV, a successful acquisition was captured. This indicates that a small PA-related change temporarily couples onto the Ring when transmitting.
 
 ![MyTiMic PCB, transmitting](captures/mytimic_tx_24mV.png)
-*MyTiMic PCB, PA active, trigger −24 mV. Very similar to the result forced by pressing "T" in the hardware tests menu.*
+*MyTiMic PCB, PA activated with PTT, trigger −24 mV. Very similar to the result when activated via the hardware tests menu.*
 
 ## Summary
 
