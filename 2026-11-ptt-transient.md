@@ -70,7 +70,7 @@ This indicates that a small PA-related change temporarily couples onto the Ring 
 ![MyTiMic PCB, PA activated via hardware tests menu, no PTT press](captures/mytimic_diag_rf_24mV.png)
 *MyTiMic PCB, PA activated via the hardware tests menu (no PTT press), trigger −24 mV.*
 
-## Test results 2: PTT into Dummy Load
+## Test results 3: PTT into Dummy Load
 
 The QMX was disconnected from the computer to conduct these tests. The operating frequency was set to 14.150 for consistency in all tests. PTT button presses during this test would activate the PA.
 
