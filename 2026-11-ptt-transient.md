@@ -8,9 +8,11 @@ According to the manual, the QMX detects a GPS by monitoring the Ring for 9600-b
 
 Working hypothesis: when the PTT is pressed or released, its contacts may bounce briefly, creating a series of fast transitions on the Tip. Some of this transient energy could couple into the Ring through the jack, cable, or circuit board and be interpreted by the QMX as serial data.
 
-The QMX’s internal 1 nF capacitance on the paddle lines may not provide sufficient debounce. Assuming an internal pull-up of approximately 40 kΩ, the corresponding time constant is about 40 µs.
+Note: This has been addressed in Firmware 1_04_006 - it should no longer be possible trigger GPS protection in SSB mode.
 
 ## Proposed solution
+
+The QMX’s internal 1 nF capacitance on the paddle lines may not provide sufficient debounce. Assuming an internal pull-up of approximately 40 kΩ, the corresponding time constant is about 40 µs.
 
 The following components can be added to the microphone:
 
@@ -89,13 +91,13 @@ The MyTiMic PCB was unable to trigger a single capture at -50 mV. With the trigg
 
 ## Summary
 
-The additional components reduced coupled spikes on the Ring below the −24 mV trigger threshold, a reduction of at least 20× (26 dB). There may be a benefit to users who wish to keep the GPS protection enabled. Field testing can help to establish whether this eliminates the false “G” message.
+The additional components reduced coupled spikes on the Ring below the −24 mV trigger threshold, a reduction of at least 20× (26 dB). Field testing can help to establish whether this eliminates the false “G” message.
 
 ## Future tests
 
 The performance of various TRS cables will established using the same test method.
 
-The control PCB includes stitched ground planes - not typically implemented on marketplace mics. The control PCB will be compared to marketplace boards to establish whether they differ in performance.
+The control PCB includes stitched ground planes - not typically implemented on marketplace mics. The control PCB will be compared to marketplace boards to establish whether they differ.
 
 ---
 
