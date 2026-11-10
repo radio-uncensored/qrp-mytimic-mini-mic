@@ -22,7 +22,7 @@ The network is intended to reduce PTT contact bounce and slow the resulting tran
 
 R1 also limits the capacitor’s discharge current through the switch contacts. Assuming a pull-up of approximately 40 kΩ, the voltage at the Tip when the PTT is pressed remains a clean logic low. Because these components are located on the microphone PCB, paddle operation is unaffected.
 
-QRP Labs publishes the complete QMX schematic, which was used to calculate and select the values of R1, C1, and C2 for the prototype. This design should not be assumed to perform identically with every radio that uses the same TRS pinout. Other radios may have different input circuits or electrical characteristics, so their performance and compatibility should be evaluated separately.
+QRP Labs publishes the complete QMX schematic, which was used to calculate and select the values of R1, C1, and C2 for the prototype. This design should not be assumed to perform identically with every radio that uses the same TRS pinout. Other radios may have different requirements - performance and compatibility should be evaluated separately.
 
 ## Measurement setup
 
