@@ -34,11 +34,11 @@ The MyTiMic adds a filter on the PTT line and a capacitor on the ring, both at t
 
 Measured on the QMX PCB, ring to sleeve. Full setup, conditions and captures are in the linked report.
 
-The filter reduced coupled spikes on the ring below the −24 mV trigger threshold, a reduction of at least 20× (26 dB). Further testing is listed in the report.
+The filter reduced coupled spikes on the ring below the −24 mV trigger threshold, a reduction of at least 20× (26 dB). See below.
 
 ## Compatibility
 
-Values were chosen using the published QMX schematic from QRP Labs. Results should not be assumed to apply to other radios that use the same TRS pinout; their input circuits may differ.
+Values were chosen using the published QMX schematic from QRP Labs. Results should not be assumed to apply to other radios that use the same TRS pinout.
 
 ## Oscilloscope measurements
 
