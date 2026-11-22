@@ -28,7 +28,7 @@ QRP Labs publishes the complete QMX schematic, which was used to calculate and s
 
 ## Measurement setup
 
-To test this theory, two PCBs were ordered from JLCPCB. One containing C1, C2 and R1 as described (we will refer to this as the MyTiMic PCB), and the other without those components (we will refer to this as the control PCB). They were otherwise identical - ground planes, ground stitching and mechanical components were not changed. They were bench tested with a QMX. Three different tests were carried out.
+To test this theory, two PCBs were designed. One containing C1, C2 and R1 as described (we will refer to this as the MyTiMic PCB), and the other without those components (we will refer to this as the control PCB). They were otherwise identical - ground planes, ground stitching and mechanical components were not changed. They were bench tested with a QMX. Three different tests were carried out.
 
 1. With “Mic Test” enabled in diagnostics, by pressing the PTT button.
 2. Activating the PA via the "Hardware Tests" menu, without pressing the PTT button.
