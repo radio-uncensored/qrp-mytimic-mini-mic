@@ -8,7 +8,7 @@ According to the manual, the QMX detects a GPS by monitoring the Ring for 9600-b
 
 Working hypothesis: when the PTT is pressed or released, its contacts may bounce briefly, creating a series of fast transitions on the Tip. Some of this transient energy could couple into the Ring through the jack, cable, or circuit board and be interpreted by the QMX as serial data.
 
-Note: This has been addressed in Firmware 1_04_006 - it should no longer be possible trigger GPS protection in SSB mode.
+Note: A workaround for this has been implemented in Firmware 1_04_006.
 
 ## Proposed solution
 
