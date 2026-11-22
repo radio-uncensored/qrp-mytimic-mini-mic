@@ -91,7 +91,7 @@ The MyTiMic PCB was unable to trigger a single capture at -50 mV. With the trigg
 
 ## Summary
 
-The additional components reduced coupled spikes on the Ring below the −24 mV trigger threshold, a reduction of at least 20× (26 dB). Field testing can help to establish whether this eliminates the false “G” message.
+The additional components reduced coupled spikes on the Ring below the −24 mV trigger threshold, a reduction of at least 20× (26 dB). Further testing can help to establish whether this eliminates the false “G” message, without the need for a workaround.
 
 ## Future tests
 
