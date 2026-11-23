@@ -11,19 +11,15 @@ This repository contains test results only.
 
 ## PCB features
 
-- PTT filter to suppress switching transients
-- RF bypassing at the jack, with a C0G capacitor
-- Stitched ground planes on both sides of the PCB
+- PTT filter to suppress transients from coupling onto the Ring
+- RF bypassing at the jack (C0G)
+- Stitched ground planes
 
 ## Why the PTT filter?
 
 Some QMX users report a false "G" (GPS protection) indication when keying up with a PTT microphone.
 
-According to the QMX manual, the radio detects a GPS by monitoring the ring contact for 9600-baud serial data. The ring is also the microphone line.
-
-**Working hypothesis:** when the PTT button is pressed or released, its contacts may bounce, producing fast transitions on the tip. Some of that transient energy can couple into the ring through the plug, cable or PCB, where the QMX may read it as serial data.
-
-The MyTiMic adds a filter on the PTT line and a capacitor on the ring, both at the jack, to slow those transitions and suppress what couples across. The parts are on the microphone board, so paddle operation is unaffected.
+The MyTiMic adds a PTT debounce and a capacitor on the ring, to slow those transitions and suppress coupling.
 
 ## Measurements so far
 
@@ -34,7 +30,7 @@ The MyTiMic adds a filter on the PTT line and a capacitor on the ring, both at t
 
 Measured on the QMX PCB, ring to sleeve. Full setup, conditions and captures are in the linked report.
 
-The filter reduced coupled spikes on the ring below the −24 mV trigger threshold, a reduction of at least 20× (26 dB). See below.
+The components reduce coupled spikes on the ring below the −24 mV trigger threshold, a reduction of at least 20× (26 dB). See below.
 
 ## Compatibility
 
