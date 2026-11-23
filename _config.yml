@@ -1,0 +1,36 @@
+title: "M9OMS"
+description: >-
+  MyTiMic mini mic for the QRP Labs QMX. PTT transient filtering and scope
+  test results, for portable SSB (POTA/SOTA).
+
+url: "https://radio-uncensored.github.io"
+baseurl: "/qrp-mytimic-mini-mic"
+
+theme: jekyll-theme-cayman
+show_downloads: false
+
+plugins:
+  - jekyll-seo-tag      # emits <title>, <meta description>, Open Graph / Twitter cards
+  - jekyll-sitemap      # auto-generates /sitemap.xml for crawlers
+  # jekyll-relative-links and jekyll-readme-index are enabled by GitHub Pages by
+  # default: README.md becomes the home page and [text](file.md) links resolve
+  # to the correct .html URLs automatically.
+
+# Per-page titles and descriptions, set here so README.md and the report stay
+# unchanged (front matter in README.md would show as a table on GitHub).
+defaults:
+  - scope:
+      path: "README.md"
+    values:
+      title: "M9OMS MyTiMic - PTT Mini Mic for the QRP Labs QMX"
+      description: "MyTiMic mini mic for the QRP Labs QMX. PTT transient filtering and scope test results, for portable SSB (POTA/SOTA)."
+  - scope:
+      path: "2026-11-ptt-transient.md"
+    values:
+      title: "Investigating PTT Transients - M9OMS MyTiMic"
+      description: "Oscilloscope measurements of PTT transients on the QMX ring, comparing the MyTiMic PTT filter with an unfiltered control PCB. November 2026."
+
+# Google: Search Console > Add property (URL prefix) > HTML tag (the content="..." value).
+webmaster_verifications:
+  bing: "B8FDCB19B66032EF011B60EA4D224A21"
+  # google: "PASTE_GOOGLE_META_TOKEN_HERE"

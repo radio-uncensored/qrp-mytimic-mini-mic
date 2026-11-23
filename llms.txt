@@ -1,0 +1,20 @@
+# M9OMS MyTiMic
+
+> A compact push-to-talk electret microphone for portable SSB operating with
+> the QRP Labs QMX / QMX+. Adds a PTT filter and a C0G capacitor on the ring
+> at the jack, to suppress switching transients that may cause a false "G"
+> (GPS protection) indication. Sold at https://m9oms.com
+
+Oscilloscope tests (November 2026) show the filter reduced coupled spikes on
+the ring below the -24 mV trigger threshold, a reduction of at least 20x
+(26 dB). Values were chosen using the published QMX schematic; results should
+not be assumed to apply to other radios that use the same TRS pinout.
+
+## Documentation
+
+- [Overview and measurement summary](https://radio-uncensored.github.io/qrp-mytimic-mini-mic/): PCB features, why the PTT filter, results table, compatibility
+- [Investigating PTT transients](https://radio-uncensored.github.io/qrp-mytimic-mini-mic/2026-11-ptt-transient.html): oscilloscope measurements, setup and captures, November 2026
+
+## Buy
+
+- [MyTiMic V1](https://m9oms.com/product/mytimic_v_1-microphone/)
