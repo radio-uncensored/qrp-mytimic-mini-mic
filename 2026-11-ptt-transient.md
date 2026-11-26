@@ -95,7 +95,7 @@ The additional components reduced coupled spikes on the Ring below the −24 mV 
 
 ## Future tests
 
-The performance of various TRS cables will established using the same test method in [Part 2](2026-11-ptt-transient2.md).
+The performance of various TRS cables will be established using the same test method in [Part 2](2026-11-ptt-transient2.md).
 
 The control PCB includes stitched ground planes - not typically implemented on marketplace mics. The control PCB will be compared to marketplace boards to establish whether they differ.
 
