@@ -73,6 +73,6 @@ The choice of TRS cable affects how much of the PTT transient couples onto the R
 
 This document covers Ring transients only. Further tests could assess other aspects of performance, such as RF interference.
 
-Typically, TRS cables are usually chosen for their size, flexibility, how well they coil and how they feel in the hand. This test demonstrates that their electrical characteristics also matter. Typical consumer TRS cable do not offer data sheets - in the absence of bench testing, their impact on portable operation is therefore unknown. 
+Typically, TRS cables are chosen for their size, flexibility, how well they coil and how they feel in the hand. This test demonstrates that their electrical characteristics also matter. Typical consumer TRS cable do not offer data sheets - in the absence of bench testing, their impact on portable operation is therefore unknown. 
 
 ---
