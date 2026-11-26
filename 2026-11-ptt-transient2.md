@@ -36,24 +36,24 @@ The QMX was powered from a bench supply at 12.00 V.
 
 ## Test results 1: Control cable
 
-An excursion of approximately −500 mV appeared on every PTT press, matching part 1 and confirming that the measurement is repeatable.
+An excursion of ≈ −500 mV appeared on every PTT press, matching part 1 and confirming that the measurement is repeatable.
 
 ![Control PCB with the control cable, PTT into dummy load](captures/control_cable.png)
-*Control PCB, control cable. Excursion of approximately −500 mV, as in part 1.*
+*Control PCB, control cable. Excursion ≈ −500 mV, as in part 1.*
 
 ## Test results 2: CPC cable A
 
-The excursion fell by more than half, to just over −200 mV.
+Excursion reduced by more than half, to ≈ −200 mV.
 
 ![Control PCB with CPC cable A, PTT into dummy load](captures/CABLE1.png)
-*Control PCB, CPC cable A. Excursion just over −200 mV.*
+*Control PCB, CPC cable A. Excursion ≈ −200 mV.*
 
 ## Test results 3: CPC cable B
 
-The excursion fell further, to approximately −125 mV.
+Excursion reduced further, to ≈ −125 mV.
 
 ![Control PCB with CPC cable B, PTT into dummy load](captures/CABLE2.png)
-*Control PCB, CPC cable B. Excursion of approximately −125 mV.*
+*Control PCB, CPC cable B. Excursion ≈ −125 mV.*
 
 ## Cable construction
 
@@ -65,9 +65,9 @@ In cable B, each core has its own screen, connected to the Sleeve. A grounded sc
 
 | Cable | Excursion (approx.) | Relative to control |
 | --- | --- | --- |
-| Control | ≈500 mV | — |
-| CPC cable A | ≈200 mV | ≈ 2.4× lower (≈ 8 dB) |
-| CPC cable B | ≈125 mV | ≈ 4× lower (≈ 12 dB) |
+| Control | ≈-500 mV | — |
+| CPC cable A | ≈-200 mV | ≈ 2.4× lower (≈ 8 dB) |
+| CPC cable B | ≈-125 mV | ≈ 4× lower (≈ 12 dB) |
 
 The choice of TRS cable affects how much of the PTT transient couples onto the Ring. None of the cables tested removed it entirely; for comparison, the MyTiMic PCB in part 1 reduced it below −24 mV.
 
