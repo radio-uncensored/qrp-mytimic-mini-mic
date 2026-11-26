@@ -1,10 +1,10 @@
 # Investigating PTT transients: Part 2
 
-**M9OMS MyTiMic** · Oscilloscope measurements, November 2026 · [Back to README](README.md) · [Part one](2026-11-ptt-transient1.md)
+**M9OMS MyTiMic** · Oscilloscope measurements, November 2026 · [Back to README](README.md) · [Part 1](2026-11-ptt-transient1.md)
 
 ## Background
 
-[Part one](2026-11-ptt-transient1.md) demonstrated that when activating the PTT circuit, a transient couples onto the Ring.
+[Part 1](2026-11-ptt-transient1.md) demonstrated that when activating the PTT circuit, a transient couples onto the Ring.
 
 This document examines a single variable: the effect of the TRS cable on that transient.
 
@@ -18,7 +18,7 @@ Three cables were tested, each 1 m long:
 
 | Cable | Source | Part number | Construction | Length |
 | --- | --- | --- | --- | --- |
-| Control | As part one | — | [TO FILL] | 1 m |
+| Control | As part 1 | — | [TO FILL] | 1 m |
 | CPC cable A | CPC | [TO FILL] | [TO FILL] | 1 m |
 | CPC cable B | CPC | [TO FILL] | Figure-8, individually screened cores [TO FILL] | 1 m |
 
@@ -26,7 +26,7 @@ Three cables were tested, each 1 m long:
 
 All three cables were tested with the control PCB, which had no decoupling or PTT debounce components.
 
-The method matched Test 3 of part one: transmitting into a dummy load on 14.150 MHz by pressing the PTT button.
+The method matched Test 3 of part 1: transmitting into a dummy load on 14.150 MHz by pressing the PTT button.
 
 Again, no electret was fitted. Any transient on the Ring is due to activation of the PTT circuit, coupled through the cable.
 
@@ -36,10 +36,10 @@ The QMX was powered from a bench supply at 12.00 V.
 
 ## Test results 1: Control cable
 
-An excursion of approximately −500 mV appeared on every PTT press, matching part one and confirming that the measurement is repeatable.
+An excursion of approximately −500 mV appeared on every PTT press, matching part 1 and confirming that the measurement is repeatable.
 
 ![Control PCB with the control cable, PTT into dummy load](captures/control_cable.png)
-*Control PCB, control cable. Excursion of approximately −500 mV, as in part one.*
+*Control PCB, control cable. Excursion of approximately −500 mV, as in part 1.*
 
 ## Test results 2: CPC cable A
 
@@ -69,7 +69,7 @@ In cable B, each core has its own screen, connected to the Sleeve. A grounded sc
 | CPC cable A | just over −200 mV | ≈ 2.4× lower (≈ 8 dB) |
 | CPC cable B | −125 mV | ≈ 4× lower (≈ 12 dB) |
 
-The choice of TRS cable affects how much of the PTT transient couples onto the Ring. None of the cables tested removed it entirely; for comparison, the MyTiMic PCB in part one reduced it below −24 mV.
+The choice of TRS cable affects how much of the PTT transient couples onto the Ring. None of the cables tested removed it entirely; for comparison, the MyTiMic PCB in part 1 reduced it below −24 mV.
 
 This document covers Ring transients only. Further tests could assess other aspects of performance, such as RF interference.
 
