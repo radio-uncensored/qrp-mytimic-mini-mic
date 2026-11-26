@@ -16,11 +16,11 @@ Three cables were tested, each 1 m long:
 2. **CPC cable A:** supplied by CPC, with a published datasheet (see cable construction, below).
 3. **CPC cable B:** supplied by CPC, with a published datasheet (see cable construction, below).
 
-| Cable | Source | Part number | Construction | Length |
-| --- | --- | --- | --- | --- |
-| Control | As part 1 | — | [TO FILL] | 1 m |
-| CPC cable A | CPC | [TO FILL] | [TO FILL] | 1 m |
-| CPC cable B | CPC | [TO FILL] | Figure-8, individually screened cores [TO FILL] | 1 m |
+| Cable | Source | Construction | Length |
+| --- | --- | --- | --- |
+| Control | As part 1 | Consumer headphone cable; no datasheet | 1 m |
+| CPC cable A | CPC | 3 twisted cores, no screen, Ø 3.0 mm | 1 m |
+| CPC cable B | CPC | 2 cores, overall foil and copper screen, Ø 4.0 mm | 1 m |
 
 ## Measurement setup
 
@@ -57,9 +57,14 @@ Excursion reduced further, to ≈ −125 mV.
 
 ## Cable construction
 
-[TO FILL: construction details from each datasheet.]
+**Cable A:** three insulated cores, each 7 × 0.10 mm copper, twisted together along the length of the cable, in a 3.0 mm PVC jacket. There is no screen; the Sleeve is carried on one of the three cores.
 
-In cable B, each core has its own screen, connected to the Sleeve. A grounded screen therefore runs between the Tip and Ring conductors along the full length of the cable, reducing the capacitive coupling between them.
+![Cable A cross-section: three unscreened cores](captures/cable_a_section.svg)
+*The cross-section cannot show it, but the three cores are twisted together.*
+
+**Cable B:** two insulated cores, each 10 × 0.10 mm copper, inside an overall screen of aluminium foil and 32 × 0.10 mm copper, in a 4.0 mm PVC jacket. The screen carries the Sleeve, surrounding both cores.
+
+![Cable B cross-section: two cores inside an overall screen](captures/cable_b_section.svg)
 
 ## Summary
 
