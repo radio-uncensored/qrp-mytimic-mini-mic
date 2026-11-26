@@ -25,8 +25,8 @@ The MyTiMic adds a PTT debounce and a capacitor on the ring, to slow those trans
 
 | Comparison | Board without filter | MyTiMic |
 | --- | --- | --- |
-| Ring transient on PTT press, Mic Test mode (PA inactive) | ≈ −500 mV spike on 10 of 10 presses | No capture at −24 mV trigger (10 presses) |
-| Ring transient on PTT press, transmitting into dummy load | ≈ −500 mV spike on 10 of 10 presses | Small PA-related capture at −24 mV; none at −50 mV |
+| Ring transient on PTT press, Mic Test mode (PA inactive) | ≈ −500 mV excursion | No capture at −24 mV trigger (10 presses) |
+| Ring transient on PTT press, transmitting into dummy load | ≈ −500 mV excursion | Small PA-related excursion at −24 mV trigger; none at −50 mV |
 
 Measured on the QMX PCB, ring to sleeve. Full setup, conditions and captures are in the linked report.
 
