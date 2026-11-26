@@ -40,6 +40,6 @@ Values were chosen using the published QMX schematic from QRP Labs. Results shou
 
 | Date | Link |
 | --- | --- |
-| November 2026 | [Investigating PTT transients - Part 1](2026-11-ptt-transient.md) |
+| November 2026 | [Investigating PTT transients - Part 1: PCB](2026-11-ptt-transient.md) |
 | November 2026 | [Investigating PTT transients - Part 2: TRS cables](2026-11-ptt-transient2.md) |
 
