@@ -1,10 +1,10 @@
-# Investigating PTT transients: part two
+# Investigating PTT transients: Part 2
 
 **M9OMS MyTiMic** · Oscilloscope measurements, November 2026 · [Back to README](README.md) · [Part one](2026-11-ptt-transient1.md)
 
 ## Background
 
-[Part one](2026-11-ptt-transient1.md) showed that pressing the microphone's PTT button couples a transient onto the Ring. Adding two capacitors and a resistor to the microphone PCB eliminated it.
+[Part one](2026-11-ptt-transient1.md) demonstrated that when activating the PTT circuit, a transient couples onto the Ring.
 
 This document examines a single variable: the effect of the TRS cable on that transient.
 
@@ -12,9 +12,9 @@ This document examines a single variable: the effect of the TRS cable on that tr
 
 Three cables were tested, each 1 m long:
 
-1. **Control cable:** the cable used throughout part one.
-2. **CPC cable A:** supplied by CPC, with a published datasheet.
-3. **CPC cable B:** supplied by CPC, with a published datasheet. It shares the construction of cable A, with the addition of individually screened cores in a figure-8 configuration (see Cable construction, below).
+1. **Control cable:** the same cable used in Part 1.
+2. **CPC cable A:** supplied by CPC, with a published datasheet (see cable construction, below).
+3. **CPC cable B:** supplied by CPC, with a published datasheet (see cable construction, below).
 
 | Cable | Source | Part number | Construction | Length |
 | --- | --- | --- | --- | --- |
@@ -24,11 +24,11 @@ Three cables were tested, each 1 m long:
 
 ## Measurement setup
 
-All three cables were tested with the control PCB, which has no decoupling and no PTT debounce circuit.
+All three cables were tested with the control PCB, which had no decoupling or PTT debounce components.
 
 The method matched Test 3 of part one: transmitting into a dummy load on 14.150 MHz by pressing the PTT button.
 
-As before, no electret was fitted. Any transient on the Ring therefore comes from the PTT circuit alone, coupled through the cable.
+Again, no electret was fitted. Any transient on the Ring is due to activation of the PTT circuit, coupled through the cable.
 
 The Ring-to-Sleeve signal was measured on the QMX PCB using an oscilloscope probe with a short ground spring. Channel 1 was set to 10×, AC coupling. The single-capture trigger was DC-coupled, on a falling edge at −50 mV.
 
@@ -69,10 +69,10 @@ In cable B, each core has its own screen, connected to the Sleeve. A grounded sc
 | CPC cable A | just over −200 mV | ≈ 2.4× lower (≈ 8 dB) |
 | CPC cable B | −125 mV | ≈ 4× lower (≈ 12 dB) |
 
-The choice of TRS cable clearly affects how much of the PTT transient couples onto the Ring. No cable removed it entirely; for comparison, the MyTiMic PCB in part one reduced it below −24 mV.
+The choice of TRS cable affects how much of the PTT transient couples onto the Ring. None of the cables tested removed it entirely; for comparison, the MyTiMic PCB in part one reduced it below −24 mV.
 
-This document covers Ring transients only. Further tests could assess other aspects of performance, such as RF interference and common-mode noise.
+This document covers Ring transients only. Further tests could assess other aspects of performance, such as RF interference.
 
-Headphone and microphone cables are usually chosen for flexibility, how well they coil and how they feel in the hand. Their electrical construction matters too. A cable with a published datasheet shows what you are buying and how it is likely to perform. Such cables may not look like typical consumer TRS leads, but they offer better electrical characteristics.
+Typically, TRS cables are usually chosen for their size, flexibility, how well they coil and how they feel in the hand. This test demonstrates that their electrical characteristics also matter. Typical consumer TRS cable do not offer data sheets - in the absence of bench testing, their impact on portable operation is therefore unknown. 
 
 ---
