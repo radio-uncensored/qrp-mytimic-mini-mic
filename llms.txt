@@ -13,7 +13,8 @@ not be assumed to apply to other radios that use the same TRS pinout.
 ## Documentation
 
 - [Overview and measurement summary](https://radio-uncensored.github.io/qrp-mytimic-mini-mic/): PCB features, why the PTT filter, results table, compatibility
-- [Investigating PTT transients](https://radio-uncensored.github.io/qrp-mytimic-mini-mic/2026-11-ptt-transient.html): oscilloscope measurements, setup and captures, November 2026
+- [Investigating PTT transients - Part 1](https://radio-uncensored.github.io/qrp-mytimic-mini-mic/2026-11-ptt-transient.html): oscilloscope measurements, setup and captures, November 2026
+- [Investigating PTT transients - Part 2](https://radio-uncensored.github.io/qrp-mytimic-mini-mic/2026-11-ptt-transient2.html): effect of the TRS cable on the PTT transient, November 2026
 
 ## Buy
 

@@ -27,8 +27,13 @@ defaults:
   - scope:
       path: "2026-11-ptt-transient.md"
     values:
-      title: "Investigating PTT Transients - M9OMS MyTiMic"
+      title: "Investigating PTT Transients - Part 1 - M9OMS MyTiMic"
       description: "Oscilloscope measurements of PTT transients on the QMX ring, comparing the MyTiMic PTT filter with an unfiltered control PCB. November 2026."
+  - scope:
+      path: "2026-11-ptt-transient2.md"
+    values:
+      title: "Investigating PTT Transients - Part 2 - M9OMS MyTiMic"
+      description: "Oscilloscope measurements of how the TRS cable affects PTT transients coupled onto the QMX ring. November 2026."
 
 # Google: Search Console > Add property (URL prefix) > HTML tag (the content="..." value).
 webmaster_verifications:
