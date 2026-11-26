@@ -65,9 +65,9 @@ In cable B, each core has its own screen, connected to the Sleeve. A grounded sc
 
 | Cable | Excursion (approx.) | Relative to control |
 | --- | --- | --- |
-| Control | −500 mV | — |
-| CPC cable A | just over −200 mV | ≈ 2.4× lower (≈ 8 dB) |
-| CPC cable B | −125 mV | ≈ 4× lower (≈ 12 dB) |
+| Control | ≈500 mV | — |
+| CPC cable A | ≈200 mV | ≈ 2.4× lower (≈ 8 dB) |
+| CPC cable B | ≈125 mV | ≈ 4× lower (≈ 12 dB) |
 
 The choice of TRS cable affects how much of the PTT transient couples onto the Ring. None of the cables tested removed it entirely; for comparison, the MyTiMic PCB in part 1 reduced it below −24 mV.
 
