@@ -59,12 +59,12 @@ Excursion reduced further, to ≈ −125 mV.
 
 **Cable A:** three insulated cores, each 7 × 0.10 mm copper, twisted together along the length of the cable, in a 3.0 mm PVC jacket. There is no screen; the Sleeve is carried on one of the three cores.
 
-[](captures/cable_a_section.svg)
+[Cable A](captures/cable_a_section.svg)
 
 
 **Cable B:** two insulated cores, each 10 × 0.10 mm copper, inside an overall screen of aluminium foil and 32 × 0.10 mm copper, in a 4.0 mm PVC jacket. The screen carries the Sleeve, surrounding both cores.
 
-[](captures/cable_b_section.svg)
+[Cable B](captures/cable_b_section.svg)
 
 ## Summary
 
