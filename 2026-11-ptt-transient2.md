@@ -74,10 +74,10 @@ Excursion reduced further, to ≈ −125 mV.
 | CPC cable A | ≈ -200 mV | ≈ 2.4× lower (≈ 8 dB) |
 | CPC cable B | ≈ -125 mV | ≈ 4× lower (≈ 12 dB) |
 
-The choice of TRS cable affects how much of the PTT transient couples onto the Ring. None of the cables tested removed it entirely; for comparison, the MyTiMic PCB in Part 1 reduced it below −24 mV.
+The choice of TRS cable affects how much of the PTT transient couples onto the Ring. None of the cables tested removed it entirely; for comparison, the MyTiMic PCB in Part 1 reduced it below a −24 mV trigger threshold.
 
 This document covers Ring transients only. Further tests could assess other aspects of performance, such as RF interference.
 
-Typically, TRS cables are chosen for their size, flexibility, how well they coil and how they feel in the hand. This test demonstrates that their electrical characteristics also matter. Typical consumer TRS cable do not offer data sheets - in the absence of bench testing, their impact on portable operation is therefore unknown. 
+Typically, TRS cables are chosen for their size, flexibility, how well they coil and how they feel in the hand. This test demonstrates that their electrical characteristics also matter. Typical consumer TRS cables do not offer data sheets - in the absence of bench testing, their impact on portable operation is therefore unknown. 
 
 ---
