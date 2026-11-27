@@ -28,8 +28,6 @@ All three cables were tested with the control PCB, which had no decoupling or PT
 
 The method matched Test 3 of Part 1: transmitting into a dummy load on 14.150 MHz by pressing the PTT button.
 
-Transients measured on the Ring were due to coupling upon activation of the PTT circuit.
-
 The Ring-to-Sleeve signal was measured on the QMX PCB using an oscilloscope probe with a short ground spring. Channel 1 was set to 10×, AC coupling. The single-capture trigger was DC-coupled, on a falling edge at −50 mV.
 
 The QMX was powered from a bench supply at 12.00 V.
