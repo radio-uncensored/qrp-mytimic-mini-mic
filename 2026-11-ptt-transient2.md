@@ -13,22 +13,22 @@ This document examines a single variable: the effect of the TRS cable on that tr
 Three cables were tested, each 1 m long:
 
 1. **Control cable:** the same cable used in Part 1.
-2. **CPC cable A:** supplied by CPC, with a published datasheet (see cable construction, below).
-3. **CPC cable B:** supplied by CPC, with a published datasheet (see cable construction, below).
+2. **CPC A:** supplied by CPC, with a published datasheet (see cable construction, below).
+3. **CPC B:** supplied by CPC, with a published datasheet (see cable construction, below).
 
 | Cable | Source | Construction | Length |
 | --- | --- | --- | --- |
 | Control | As Part 1 | Consumer headphone cable; no datasheet | 1 m |
-| CPC cable A | CPC | 3 twisted cores, no screen, Ø 3.0 mm | 1 m |
-| CPC cable B | CPC | 2 cores, overall foil and copper screen, Ø 4.0 mm | 1 m |
+| Cable A | CPC | 3 twisted cores, no screen, Ø 3.0 mm | 1 m |
+| Cable B | CPC | 2 cores, overall foil and copper screen, Ø 4.0 mm | 1 m |
 
 ## Measurement setup
 
-All three cables were tested with the control PCB, which had no decoupling or PTT debounce components.
+All three cables were tested with the control PCB, which had no decoupling or PTT debounce components. No electret was fitted.
 
 The method matched Test 3 of Part 1: transmitting into a dummy load on 14.150 MHz by pressing the PTT button.
 
-Again, no electret was fitted. Any transient on the Ring is due to activation of the PTT circuit, coupled through the cable.
+Transients measured on the Ring were due to coupling upon activation of the PTT circuit.
 
 The Ring-to-Sleeve signal was measured on the QMX PCB using an oscilloscope probe with a short ground spring. Channel 1 was set to 10×, AC coupling. The single-capture trigger was DC-coupled, on a falling edge at −50 mV.
 
@@ -43,26 +43,26 @@ An excursion of ≈ −500 mV appeared on every PTT press, matching Part 1 and c
 
 ## Test results 2: CPC cable A
 
-Excursion reduced by more than half, to ≈ −200 mV.
+This cable reduced the excursion reduced by more than half, to ≈ −200 mV.
 
 ![Control PCB with CPC cable A, PTT into dummy load](captures/CABLE1.png)
 *Control PCB, CPC cable A. Excursion ≈ −200 mV.*
 
 ## Test results 3: CPC cable B
 
-Excursion reduced further, to ≈ −125 mV.
+This cable reduced the excursion reduced further, to ≈ −125 mV. Whilst it offers improved resistance to coupling, its physical construction makes it less desirable for portable QRP operation.
 
 ![Control PCB with CPC cable B, PTT into dummy load](captures/CABLE2.png)
 *Control PCB, CPC cable B. Excursion ≈ −125 mV.*
 
 ## Cable construction
 
-**Cable A:** three insulated cores, each 7 × 0.10 mm copper, twisted together along the length of the cable, in a 3.0 mm PVC jacket. There is no screen; the Sleeve is carried on one of the three cores.
+**Cable A:** three insulated cores, each 7 × 0.10 mm copper, twisted together along the length of the cable, in a 3.0 mm PVC jacket. There is no screen; the Sleeve is carried on one of the three cores. Cross section below:
 
 ![](captures/cable_a_section.svg)
 
 
-**Cable B:** two insulated cores, each 10 × 0.10 mm copper, inside an overall screen of aluminium foil and 32 × 0.10 mm copper, in a 4.0 mm PVC jacket. The screen carries the Sleeve, surrounding both cores.
+**Cable B:** two insulated cores, each 10 × 0.10 mm copper, inside an overall screen of aluminium foil and 32 × 0.10 mm copper, in a 4.0 mm PVC jacket. The screen carries the Sleeve, surrounding both cores. Cross section below:
 
 ![](captures/cable_b_section.svg)
 
@@ -71,13 +71,15 @@ Excursion reduced further, to ≈ −125 mV.
 | Cable | Excursion | Relative to control |
 | --- | --- | --- |
 | Control | ≈ -500 mV | — |
-| CPC cable A | ≈ -200 mV | ≈ 2.4× lower (≈ 8 dB) |
-| CPC cable B | ≈ -125 mV | ≈ 4× lower (≈ 12 dB) |
+| Cable A | ≈ -200 mV | ≈ 2.4× lower (≈ 8 dB) |
+| Cable B | ≈ -125 mV | ≈ 4× lower (≈ 12 dB) |
 
 The choice of TRS cable affects how much of the PTT transient couples onto the Ring. None of the cables tested removed it entirely; for comparison, the MyTiMic PCB in Part 1 reduced it below a −24 mV trigger threshold.
 
 This document covers Ring transients only. Further tests could assess other aspects of performance, such as RF interference.
 
-Typically, TRS cables are chosen for their size, flexibility, how well they coil and how they feel in the hand. This test demonstrates that their electrical characteristics also matter. Typical consumer TRS cables do not offer data sheets - in the absence of bench testing, their impact on portable operation is therefore unknown. 
+Typical consumer TRS cables do not offer data sheets - their construction may therefore vary between batches/suppliers.
+
+Typically, TRS cables are chosen for their size, flexibility, how well they coil and how they feel in the hand. This test demonstrates that their electrical characteristics also matter.
 
 ---
