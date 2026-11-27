@@ -6,7 +6,7 @@
 
 [Part 1](2026-11-ptt-transient.md) demonstrated that when activating the PTT circuit, a transient couples onto the Ring.
 
-This document examines how the TRS cable contributes towards this, testing other cables of a measurable difference.
+This document examines how the TRS cable contributes towards this, and whether other cables demonstrate a measurable difference.
 
 ## Cables tested
 
