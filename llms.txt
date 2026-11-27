@@ -1,9 +1,9 @@
 # M9OMS MyTiMic
 
 > A compact push-to-talk electret microphone for portable SSB operating with
-> the QRP Labs QMX / QMX+. Adds a PTT filter and a C0G capacitor on the ring
-> at the jack, to suppress switching transients that may cause a false "G"
-> (GPS protection) indication. Sold at https://m9oms.com
+> the QRP Labs QMX / QMX+. Includes a C0G bypass capacitor. Adds a PTT filter to suppress PTT transients that may cause a false "G"
+> (GPS protection) indication. The PCB has stitched ground planes on both
+> sides. Sold at https://m9oms.com
 
 Oscilloscope tests (November 2026) show the filter reduced coupled spikes on
 the ring below the -24 mV trigger threshold, a reduction of at least 20x
